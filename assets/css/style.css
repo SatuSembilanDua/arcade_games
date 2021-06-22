@@ -270,25 +270,26 @@ a:hover{
 	margin-top: -32px;
 }
 .col-list{
-	padding-right: 5px;
-    padding-left: 5px;
+	/*padding-right: 5px;
+    padding-left: 5px;*/
 }
-.anime-list{
+.game-list{
 	border-radius: 5px;
 	margin-bottom: 20px;
+	text-align: center;
 }
 .img-list{
 	width: 100%;
 	height: 200px;
-	background-size: auto 200%;
+	background-size: auto 100%;
 	background-repeat:no-repeat;
 	background-position: center center;
 }
-.anime-judul{
+.game-judul{
 	padding: 10px 0;
 	min-height: 40px;
 }
-.anime-judul>p{
+.game-judul>p{
 	color:#FFF;
 	margin: 0;
 	line-height: 20px;
@@ -299,10 +300,10 @@ a:hover{
 .fa-film{
 	margin-right: 5px;
 }
-a>.anime-judul>p:hover{
+a>.game-judul>p:hover{
 	color: #e50914;
 }
-a>.anime-judul>p:hover i{
+a>.game-judul>p:hover i{
 	color: #FFF;
 }
 .see{
@@ -320,12 +321,12 @@ a>.anime-judul>p:hover i{
 .fa-play{
 	color: #FFF;
 }
-a>.poster-img:hover .img-list{
+/*a>.poster-img:hover .img-list{
 	filter: blur(2px);
 }
 a>.poster-img:hover .see{
 	display: block;
-}
+}*/
 .anime-desk>p, .anime-desk>span{
 	color: #FFF;
 }
@@ -458,7 +459,7 @@ video.idframe{
 		height: 170px;
 	}
 
-	.anime-judul>p{
+	.game-judul>p{
 		font-size: 0.8em;
 	}
 
